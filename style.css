@@ -176,14 +176,18 @@
     opacity: 0; transform: translateY(30px);
     animation: fadeUp 0.8s var(--transition) 0.8s forwards;
   }
-  .btn-primary {
-    padding: 15px 36px; border-radius: 50px;
-    background: var(--text); color: #fff;
-    font-size: 15px; font-weight: 500;
-    text-decoration: none; letter-spacing: 0.3px;
-    transition: all 0.3s var(--transition);
-    border: 2px solid var(--text);
-  }
+ .btn-primary {
+  padding: 15px 36px;
+  border-radius: 50px;
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  border: 2px solid var(--border);
+  transition: all 0.3s var(--transition);
+}
   .btn-primary:hover {
     background: var(--accent2); border-color: var(--accent2);
     transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,0.15);
