@@ -296,7 +296,7 @@
   }
   .about-badge {
     position: absolute; bottom: -16px; right: -16px;
-    background: var(--text); color: #fff;
+    background: var(--accent2);color: var(--text);
     padding: 16px 20px; border-radius: 16px;
     font-size: 14px; font-weight: 500;
     box-shadow: 0 12px 40px rgba(0,0,0,0.2);
@@ -400,7 +400,7 @@
     padding: 5px 14px; border-radius: 50px;
     font-size: 11px; font-weight: 600; letter-spacing: 1px;
     text-transform: uppercase;
-    background: var(--text); color: #fff;
+    background: var(--accent2); color: var(--text);
     margin-bottom: 16px;
   }
   .project-tag.frontend { background: var(--accent2); color: var(--text); }
@@ -442,8 +442,8 @@
     display: flex; align-items: center; gap: 7px;
   }
   .project-link.primary {
-    background: var(--text); color: #fff;
-    border: 1.5px solid var(--text);
+    background: transparent; color: var(--text-2);
+    border: 1.5px solid var(--border);
   }
   .project-link.primary:hover { background: var(--accent2); border-color: var(--accent2); color: var(--text); }
   .project-link.secondary {
